@@ -1,7 +1,7 @@
 {
-  "name": "kid-md",
+  "name": "send-me-a-text",
   "version": "1.0.0",
-  "description": "A kid education skill for kids",
+  "description": "A scheduled text reminder app for the Alexa",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,15 +9,14 @@
   "keywords": [
     "alexa",
     "skill",
-    "kids",
-    "health",
-    "education"
+    "life hacks",
+    "productivity",
+    "reminders"
   ],
   "author": "Chris Buonocore",
   "license": "Apache-2.0",
   "dependencies": {
     "alexa-sdk": "^1.0.12",
-    "axios": "^0.17.1",
-    "node-where": "^1.1.0"
+    "axios": "^0.17.1"
   }
 }

@@ -26,16 +26,27 @@
       ]
     },
     {
+      "intent": "ScheduleTargetedIntent",
+      "slots": [
+        {
+          "name": "TargetPhone",
+          "type": "AMAZON.PhoneNumber"
+        },
+        {
+          "name": "Message",
+          "type": "MESSAGE"
+        },
+        {
+          "name": "ScheduleTime",
+          "type": "AMAZON.Date"
+        }
+      ]
+    },
+    {
       "intent": "AMAZON.HelpIntent"
     },
     {
       "intent": "AMAZON.CancelIntent"
-    },
-    {
-      "intent": "AMAZON.YesIntent"
-    },
-    {
-      "intent": "AMAZON.NoIntent"
     }
   ]
 }

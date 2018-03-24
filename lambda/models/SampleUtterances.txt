@@ -3,8 +3,7 @@ RegisterIntent reregister
 
 ScheduleIntent text me to {Message} at {ScheduleTime}
 ScheduleIntent text me {Message} at {ScheduleTime}
-ScheduleIntent send {Message} at {ScheduleTime}
-ScheduleIntent schedule {Message} at {ScheduleTime}
-ScheduleIntent tell me to {Message} at {ScheduleTime}
+ScheduleTargetedIntent text {TargetPhone} {Message} at {ScheduleTime}
+ScheduleTargetedIntent text {TargetPhone} to {Message} at {ScheduleTime}
 
 

@@ -6,17 +6,18 @@ const library = (function () {
     const SERVER_URL = `localhost:${SERVER_PORT}`;
 
 
-    function postRegister() {
-        return axios
+    function postRegister(deviceId, phone) {
+        // TODO: implement
     }
 
-    function postScheduledText(deviceId,) {
-
+    function postScheduledText(deviceId, phone, message, when) {
+        // TODO: implement.
     }
-
 
     return {
         SERVER_URL: SERVER_URL,
+        postRegister: postRegister,
+        postScheduledText: postScheduledText,
     }
 
 })();
