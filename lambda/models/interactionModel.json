@@ -1,0 +1,51 @@
+{
+  "intents": [
+    {
+      "intent": "LaunchRequest"
+    },
+    {
+      "intent": "ProblemIntent",
+      "slots": [
+        {
+          "name": "Relative",
+          "type": "RELATIVE"
+        },
+        {
+          "name": "Problem",
+          "type": "PROBLEM"
+        }
+      ]
+    },
+    {
+      "intent": "DoctorIntent",
+      "slots": [
+        {
+          "name": "City",
+          "type": "AMAZON.US_CITY"
+        },
+        {
+          "name": "Query",
+          "type": "QUERY"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    }
+  ]
+}
