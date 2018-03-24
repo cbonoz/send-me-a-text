@@ -49,9 +49,6 @@ const sessionHandlers = {
 
     /* Amazon intents below */
 
-    'AMAZON.StartOverIntent': function () {
-        this.emit('QuestionIntent', false);
-    },
     'AMAZON.RepeatIntent': function () {
         this.response.speak(this.attributes['speechOutput']).listen(this.attributes['repromptText']);
         this.emit(':responseReady');

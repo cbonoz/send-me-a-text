@@ -4,36 +4,29 @@
       "intent": "LaunchRequest"
     },
     {
-      "intent": "ProblemIntent",
+      "intent": "RegisterIntent",
       "slots": [
         {
-          "name": "Relative",
-          "type": "RELATIVE"
-        },
-        {
-          "name": "Problem",
-          "type": "PROBLEM"
+          "name": "Phone",
+          "type": "AMAZON.PhoneNumber"
         }
       ]
     },
     {
-      "intent": "DoctorIntent",
+      "intent": "ScheduleIntent",
       "slots": [
         {
-          "name": "City",
-          "type": "AMAZON.US_CITY"
+          "name": "Message",
+          "type": "MESSAGE"
         },
         {
-          "name": "Query",
-          "type": "QUERY"
+          "name": "ScheduleTime",
+          "type": "AMAZON.Date"
         }
       ]
     },
     {
       "intent": "AMAZON.HelpIntent"
-    },
-    {
-      "intent": "AMAZON.StopIntent"
     },
     {
       "intent": "AMAZON.CancelIntent"
@@ -43,9 +36,6 @@
     },
     {
       "intent": "AMAZON.NoIntent"
-    },
-    {
-      "intent": "AMAZON.StartOverIntent"
     }
   ]
 }
